@@ -1,0 +1,81 @@
+body {
+  color: white;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  display:grid;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  margin: 0;
+  background-color: rgb(5, 5, 5);
+}
+.container {
+  text-align: center;
+  max-width: 400px;
+  padding: 20px;
+  margin: 15px;
+  border: 1px solid #ccc;
+  border-radius: 50px;
+  margin-bottom: 20px;
+  background-color: black;
+}
+textarea {
+  font-size: 16px;
+  color: white; /* Cambia el color de fuente del textarea a blanco */
+  background-color: #333; /* Cambia el color de fondo del textarea */
+  width: 400px;
+  height: 125px;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 15px;
+  resize: none; /* Desactiva la capacidad de redimensionar */
+}
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 100px;
+  float: right;
+}
+button:hover {
+  background-color: #0056b3;
+}
+.button-text {
+  font-size: 25px;
+}
+.post-user {
+  font-family: 'Arial';
+  font-size: 18px;
+  background-color: #444;
+  padding: 10px;
+  border-radius: 15px;
+  margin-bottom: 25px;
+  max-width: 420px;
+
+}
+.post-extern{
+  font-family: 'Arial';
+  font-size: 18px;
+  background-color:  #00115f;
+  padding: 10px;
+  border-radius: 15px;
+  margin-bottom: 25px;
+  max-width: 420px;
+  opacity: 0; /* Configura la opacidad inicial en 0 */
+  transition: opacity 3s ease; /* Agrega una transición para la propiedad de opacidad */
+}
+/* Cuando el elemento tenga la clase .show, la opacidad será 1 */
+.post-extern.show {
+  opacity: 1;
+}
+
+
+.horario {
+  font-size: 14px;
+  color: white;
+  float: right;
+  font-family: 'Arial';
+}
